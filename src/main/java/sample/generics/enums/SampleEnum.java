@@ -1,17 +1,3 @@
-# Generics_Enum_Java
-enumで型を振り分ける。
-
-## 実行
-
-``` bash
-mvn clean compile test
-```
-
-## 実装
-
-ジェネリクスはいらなかったわけだが。
-
-``` java
 package sample.generics.enums;
 
 public enum SampleEnum {
@@ -30,4 +16,3 @@ public enum SampleEnum {
     
     public abstract Object get();
 }
-```
